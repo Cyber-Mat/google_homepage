@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>
+            Google
+        </title>
+        <style>
+            #navbar {
+                position: absolute;
+                top: 1em;
+                right: 0;
+                width: 30%;
+            }
+            ul {
+                list-style-type: none;  
+            }
+            .nav-link {
+                text-decoration: unset;
+                color: black;
+                padding: 1em;
+                font-family: Arial, Helvetica, sans-serif;
+                font-weight: lighter;
+                font-size: small;                
+            }
+            .nav-link:hover {
+                text-decoration: underline;
+            }
+            #body {
+                text-align: center;
+                font-family: Arial, Helvetica, sans-serif;
+                font-size: small;
+                margin-top: 2.5em;
+            }
+            #search-box {
+                width: 33em;
+                height: 3em;
+                background-color: white;
+                border: 0.5px solid rgb(226, 222, 222);
+                border-radius: 50px;
+            }
+            #search-box:hover {
+                box-shadow: 0px 0px 5px rgba(0,0,0,0.19);
+            }
+            .button {
+                background-color: whitesmoke;
+                height: 2.5em;
+                text-decoration: unset;
+                border: 1px solid whitesmoke;
+                width: 10em;
+                border-radius: 5px;
+                font-weight: lighter;
+            }
+            .button:hover {
+                box-shadow: 0 1px 1px rgba(0,0,0,0.1);
+                background-color: rgb(245, 241, 241);
+                border: 1px solid rgb(167, 167, 167);
+                color: black;
+            }
+            #search-button {
+                margin-right: 8px;
+            }
+            #covid {
+                text-decoration: unset;
+                color: rgb(0, 0, 170)
+            }
+            #covid:hover {
+                text-decoration: underline;   
+            }
+            .language {
+                text-decoration: unset;
+                color: rgb(0, 0, 170);  
+            }
+            .language:hover {
+                text-decoration: underline;   
+            }
+            #nigeria-div {
+                position: fixed;
+                left: 0;
+                top: 42em;
+                background-color: whitesmoke;
+                width: 100%;
+                border: 1px solid rgb(212, 208, 208);
+                height: 4em;
+            }
+            #nigeria {
+                position: fixed;
+                margin-left: 2em;
+                color: rgb(122, 121, 121);  
+                font-family: Arial, Helvetica, sans-serif;
+                font-weight: lighter;
+                font-size: 15px;
+            }
+            #ul1-div {
+                position: fixed;
+                left: 0em;
+                top: 45.5em;
+                bottom: 0;
+                background-color: whitesmoke;
+                width: 50%;
+                border-top: 1px solid rgb(212, 208, 208);
+                height: 4em;
+            }
+            #ul-1 {
+                position: fixed;
+                margin-left: -2em;   
+            }
+            #ul2-div {
+                position: fixed;
+                right: 0;
+                top: 45.5em;
+                bottom: 0;
+                background-color: whitesmoke;
+                width: 50%;
+                border-top: 1px solid rgb(212, 208, 208);
+                height: 4em;
+            }
+            #ul-last {
+                position: fixed;
+                margin-left: 10em;
+            }
+            .footer {
+                text-decoration: unset;
+                color: rgb(122, 121, 121);
+                padding: 1em;
+                font-family: Arial, Helvetica, sans-serif;
+                font-weight: lighter;
+                font-size: 15px;
+            }
+            .footer:hover {
+                text-decoration: underline;
+            }
+        </style>
+    </head>
+    <body id="body">
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+        <div id="google-div">
+        <img id="google" src="https://web.archive.org/web/20191201000239im_/https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png" alt="Google">
+        </div>
+                <br>
+        <form id="search-form">
+            <input id="search-box" type="search" name="search" placeholder="">
+                <br>
+                <br>
+                <br>
+            <div id="button-div"><button id="search-button" class="button" type="submit">
+                Google Search
+            </button>
+            <button id="lucky-button" class="button" type="submit">
+                I'm Feeling Lucky
+            </button></div>
+        </form>
+                <br>
+                <br>
+        <div id="covid-div">
+            <a id="covid" href="https://www.google.com/url?q=https://www.google.com/search%3Fhl%3Den%26q%3Dcoronavirus%2Btips%26fbx%3Ddothefive&source=hpp&id=19017369&ct=3&usg=AFQjCNEfiQWGcREtcghwjYWS1FcZniN6NA&sa=X&ved=0ahUKEwjqvqfVi_roAhW56uAKHVIDBJUQ8IcBCA8">
+                Stay Home. Save Lives
+            </a>
+        </div>
+                <br>
+                <br>
+        <div id="language-div">
+            <p>
+                Google offered in: 
+                <a id="hausa" class="language" href="https://www.google.com/setprefs?sig=0_qcmF_198fKyNg5uoXXQpIAvuR38%3D&hl=ha&source=homepage&sa=X&ved=0ahUKEwjqvqfVi_roAhW56uAKHVIDBJUQ2ZgBCBE">
+                    Hausa
+                </a>
+                <a id="igbo" class="language" href="https://www.google.com/setprefs?sig=0_qcmF_198fKyNg5uoXXQpIAvuR38%3D&hl=ig&source=homepage&sa=X&ved=0ahUKEwjqvqfVi_roAhW56uAKHVIDBJUQ2ZgBCBI">
+                    Igbo
+                </a>
+                <a id="yoruba" class="language" href="https://www.google.com/setprefs?sig=0_qcmF_198fKyNg5uoXXQpIAvuR38%3D&hl=yo&source=homepage&sa=X&ved=0ahUKEwjqvqfVi_roAhW56uAKHVIDBJUQ2ZgBCBM">
+                    Ede Yoruba
+                </a>
+                <a id="pidgin" class="language" href="https://www.google.com/setprefs?sig=0_qcmF_198fKyNg5uoXXQpIAvuR38%3D&hl=pcm&source=homepage&sa=X&ved=0ahUKEwjqvqfVi_roAhW56uAKHVIDBJUQ2ZgBCBQ">
+                    Nigerian Pidgin
+                </a>
+            </p>
+        </div>
+        <div id="navbar">
+            <ul>            
+                <a id="gmail" class="nav-link" href="https://mail.google.com/mail/?tab=wm&ogbl">Gmail</a>    
+                <a id="images" class="nav-link" href="https://www.google.com.ng/imghp?hl=en&tab=wi&ogbl">Images</a>          
+                <a id="google-account" class="nav-link" href="https://accounts.google.com/">Accounts</a>                
+            </ul>
+        </div>
+        <div id="nigeria-div">
+                <p id="nigeria">
+                    Nigeria
+                </p>
+        </div>
+        <div id="ul1-div">
+                <ul id="ul-1">
+                    <a class="footer" href="https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=webhp&cd=&cad=rja&uact=8&ved=0ahUKEwjrnpSGzvzoAhVxyoUKHRonC2wQkdQCCBk&url=https%3A%2F%2Fwww.google.com%2Fintl%2Fen_ng%2Fads%2F%3Fsubid%3Dww-ww-et-g-awa-a-g_hpafoot1_1!o2%26utm_source%3Dgoogle.com%26utm_medium%3Dreferral%26utm_campaign%3Dgoogle_hpafooter%26fg%3D1&usg=AOvVaw1cGvEdrGBobkeaNX9K9o65">
+                        Advertising
+                    </a>
+                    <a class="footer" href="https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=webhp&cd=&cad=rja&uact=8&ved=0ahUKEwjrnpSGzvzoAhVxyoUKHRonC2wQktQCCBo&url=https%3A%2F%2Fwww.google.com%2Fservices%2F%3Fsubid%3Dww-ww-et-g-awa-a-g_hpbfoot1_1!o2%26utm_source%3Dgoogle.com%26utm_medium%3Dreferral%26utm_campaign%3Dgoogle_hpbfooter%26fg%3D1&usg=AOvVaw2SJ4zwRVXKyZr53qG9dm4K">
+                        Business
+                    </a>
+                    <a class="footer" href="https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=webhp&cd=&cad=rja&uact=8&ved=0ahUKEwjrnpSGzvzoAhVxyoUKHRonC2wQkNQCCBs&url=https%3A%2F%2Fabout.google%2F%3Futm_source%3Dgoogle-NG%26utm_medium%3Dreferral%26utm_campaign%3Dhp-footer%26fg%3D1&usg=AOvVaw0pWXO8SBD0FTvux1O2KYl-">
+                        About
+                    </a>
+                    <a class="footer" href="https://google.com/search/howsearchworks/?fg=1">
+                        How Search Works
+                    </a>
+                </ul>
+        </div>    
+        <div id="ul2-div">
+                <ul id="ul-last">
+                    <a class="footer" href="https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=webhp&cd=&cad=rja&uact=8&ved=0ahUKEwjrnpSGzvzoAhVxyoUKHRonC2wQ8awCCBU&url=https%3A%2F%2Fpolicies.google.com%2Fprivacy%3Ffg%3D1&usg=AOvVaw12z8DS9cd-g0Aokit_wxri">
+                        Privacy
+                    </a>
+                    <a class="footer" href="https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=webhp&cd=&cad=rja&uact=8&ved=0ahUKEwjrnpSGzvzoAhVxyoUKHRonC2wQ8qwCCBY&url=https%3A%2F%2Fpolicies.google.com%2Fterms%3Ffg%3D1&usg=AOvVaw3sEM_N0elgYQx8WbCXpj3n">
+                        Terms
+                    </a>
+                    <a class="footer" href="https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=webhp&cd=&cad=rja&uact=8&ved=0ahUKEwjrnpSGzvzoAhVxyoUKHRonC2wQzq0CCBc&url=https%3A%2F%2Fwww.google.com%2Fpreferences%3Fhl%3Den&usg=AOvVaw0XvhSqpc_GFt9aG_mRLp1F">
+                        Settings
+                    </a>
+                </ul>
+        </div>    
+    </body>
+</html>
